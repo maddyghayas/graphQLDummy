@@ -1,0 +1,10 @@
+type GetOffersResponse {
+    message: String
+}
+
+
+
+
+type Mutation {
+   getOffers(Platform: String): GetOffersResponse
+}
